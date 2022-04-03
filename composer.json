@@ -1,11 +1,14 @@
 {
-	"autoload" : {
-		"psr-4" : {
-			"Alcides Oliveira\\Buscador-cursos\\" : "src"
+	"name" : "alcidesoliveira/buscador-cursos",
+	"description" : "Projeto buscar cursos",
+	"type" : "library",
+	"authors" : [{
+			"name" : "Alcides Oliveira Alcoforado",
+			"email" : "alcidesce@gmail.com"
 		}
-	},
-	"name" : "Alcides Oliveira/buscador-cursos",
+	],
 	"require" : {
-		"php" : ">=7.4"
+		"guzzlehttp/guzzle" : "^7.4",
+		"symfony/dom-crawler" : "^5.4"
 	}
 }
