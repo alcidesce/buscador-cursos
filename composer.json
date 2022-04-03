@@ -1,0 +1,11 @@
+{
+	"autoload" : {
+		"psr-4" : {
+			"Alcides Oliveira\\Buscador-cursos\\" : "src"
+		}
+	},
+	"name" : "Alcides Oliveira/buscador-cursos",
+	"require" : {
+		"php" : ">=7.4"
+	}
+}
