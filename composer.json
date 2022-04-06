@@ -16,5 +16,9 @@
 		"psr-4" : {
 			"Alura\\BuscadorDeCursos\\" : "src/"
 		}
+	},
+	"require-dev": {
+		"squizlabs/php_codesniffer": "*",
+		"phan/phan": "^5.3"
 	}
 }
