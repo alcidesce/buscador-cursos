@@ -2,21 +2,17 @@
 
 namespace Alura\BuscadorDeCursos;
 
+use Composer\Semver\Constraint\ConstraintInterface;
 use GuzzleHttp\ClientInterface;
 use Symfony\Component\DomCrawler\Crawler;
 
 class Buscador
 {
-    /**
-     * @var ClientInterface
-     */
+
     private $httpClient;
-    /**
-     * @var Crawler
-     */
     private $crawler;
     
-    public function __construct(ClientInterface $httpClient, Crawler $crawler)
+    public function __construct(ConstraintInterface $httpClient, Crawler $crawler)
     {
         $this->httpClient = $httpClient;
         $this->crawler = $crawler;
